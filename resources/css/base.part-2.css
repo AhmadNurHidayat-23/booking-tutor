@@ -1,0 +1,91 @@
+.empty h3 {
+    margin: 18px 0 12px;
+}
+.empty .btn {
+    margin-top: 22px;
+}
+.empty-symbol {
+    font-size: 36px;
+    color: #b4b79d;
+}
+.empty p {
+    font-size: 12px;
+}
+.empty .text-link {
+    display: block;
+    margin-top: 20px;
+}
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: 550;
+    margin: 17px 0;
+}
+label input,
+label textarea,
+label select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d2d5c5;
+    background: #fffef8;
+    color: #35403a;
+    font-size: 13px;
+    margin-top: 8px;
+    border-radius: 3px;
+    min-width: 0;
+}
+label textarea {
+    resize: vertical;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.panel,
+.auth-panel {
+    border: 1px solid var(--line);
+    background: #fffef7;
+    padding: 30px;
+}
+.panel h2 {
+    font-size: 27px;
+    margin-bottom: 23px;
+}
+.upload {
+    padding: 20px;
+    border: 1px dashed #c6cbb7;
+}
+.upload input {
+    border: 0;
+    background: none;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.upload small {
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 10px;
+}
+footer {
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border-top: 1px solid var(--line);
+}
+footer strong {
+    font-size: 26px;
+    letter-spacing: -1.3px;
+}
+footer p {
+    font-size: 11px;
+}
+footer small {
+    font-size: 9px;
+}

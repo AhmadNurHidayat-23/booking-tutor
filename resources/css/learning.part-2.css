@@ -1,0 +1,99 @@
+
+.profile {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 45px;
+    align-items: center;
+    margin: 10px 0 50px;
+}
+.profile-portrait > img {
+    width: 260px;
+    height: 300px;
+    object-fit: cover;
+}
+.profile-portrait > .initial {
+    width: 230px;
+    height: 230px;
+    font-size: 110px;
+    border-radius: 3px;
+}
+.profile h1 {
+    font-size: 51px;
+    margin-bottom: 18px;
+}
+.profile h2 {
+    font-size: 25px;
+    color: #6c7a7e;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+}
+.profile .bio {
+    white-space: pre-wrap;
+    font-size: 13px;
+    max-width: 800px;
+    overflow-wrap: anywhere;
+}
+.profile-tags {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+.profile-tags span {
+    font-size: 10px;
+    padding: 7px 11px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+}
+.profile-tags strong {
+    font-size: 17px;
+    margin-left: 12px;
+}
+.calendar {
+    border-top: 1px solid var(--line);
+    padding-top: 35px;
+}
+.week-nav {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.slot-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 23px;
+}
+.slot-card {
+    border: 1px solid var(--line);
+    padding: 25px;
+    background: #fffef9;
+}
+.slot-card h3 {
+    font-size: 25px;
+}
+.slot-card > p {
+    font-size: 11px;
+    margin: 12px 0;
+}
+.slot-card > strong {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    display: block;
+    margin-top: 20px;
+}
+.slot-card label {
+    font-size: 10px;
+}
+.slot-card textarea {
+    font-size: 12px;
+}
+.slot-card .btn {
+    margin-top: 15px;
+}
+.hint {
+    font-size: 10px;
+    margin: 20px 0;
+    color: #899081;
+    line-height: 1.8;
+}

@@ -1,0 +1,267 @@
+
+@media (max-width: 550px) {
+    header {
+        padding: 23px 20px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .brand {
+        font-size: 29px;
+    }
+    .brand span {
+        font-size: 6px;
+    }
+    nav {
+        font-size: 10px;
+        width: 100%;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    nav .text-btn {
+        font-size: 10px;
+    }
+    nav .btn {
+        font-size: 10px;
+        padding: 9px 14px;
+    }
+    .hero {
+        padding: 32px 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .hero h1 {
+        font-size: 52px;
+        margin: 23px 0;
+    }
+    .hero > div > p {
+        font-size: 13px;
+        max-width: 330px;
+    }
+    .hero img {
+        height: 270px;
+    }
+    .hero figcaption {
+        font-size: 7px;
+        line-height: 1.7;
+    }
+    .hero-notes {
+        margin-top: 30px;
+        gap: 17px;
+    }
+    .eyebrow {
+        font-size: 8px;
+        letter-spacing: 1.5px;
+    }
+    .catalog {
+        padding: 35px 20px 45px;
+    }
+    .section-heading {
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .section-heading h2 {
+        font-size: 29px;
+    }
+    .section-heading p {
+        font-size: 12px;
+    }
+    .tutor-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .tutor-card {
+        padding: 25px;
+    }
+    .tutor-intro > img,
+    .tutor-intro > .initial {
+        width: 65px;
+        height: 65px;
+        font-size: 38px;
+    }
+    .tutor-intro h3 {
+        font-size: 25px;
+    }
+    .tutor-card > p {
+        min-height: 0;
+    }
+    .tutor-meta strong {
+        font-size: 22px;
+    }
+    .filters {
+        gap: 12px;
+    }
+    .filters label {
+        min-width: 120px;
+        font-size: 10px;
+    }
+    .filters .btn {
+        width: 100%;
+    }
+    .how {
+        padding: 35px 20px;
+    }
+    .how h2 {
+        font-size: 33px;
+    }
+    .how ol {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+    .how li {
+        display: grid;
+        grid-template-columns: 40px 1fr;
+        gap: 0 15px;
+    }
+    .how li:before {
+        grid-row: span 2;
+        margin: 0;
+    }
+    .how p {
+        margin-top: 8px;
+    }
+    .workspace {
+        padding: 32px 20px 50px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .profile {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-bottom: 35px;
+    }
+    .profile-portrait > img {
+        width: 150px;
+        height: 170px;
+    }
+    .profile-portrait > .initial {
+        width: 150px;
+        height: 150px;
+        font-size: 70px;
+    }
+    .profile h1 {
+        font-size: 39px;
+    }
+    .profile h2 {
+        font-size: 24px;
+    }
+    .profile .bio {
+        font-size: 12px;
+    }
+    .profile-tags {
+        gap: 10px;
+    }
+    .profile-tags strong {
+        font-size: 16px;
+    }
+    .calendar {
+        padding-top: 30px;
+    }
+    .calendar .section-heading h2 {
+        font-size: 30px;
+    }
+    .week-nav .btn {
+        font-size: 10px;
+    }
+    .slot-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .slot-card {
+        padding: 25px;
+    }
+}
+@media (max-width: 550px) {
+    .slot-card h3 {
+        font-size: 28px;
+    }
+    .slot-card .eyebrow {
+        font-size: 8px;
+    }
+    .slot-card > strong {
+        font-size: 28px;
+    }
+    .panel {
+        padding: 25px 20px;
+    }
+    .form-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .form-grid label {
+        margin: 12px 0;
+    }
+    .slot-form {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .slot-form label:nth-child(3) {
+        grid-column: auto;
+    }
+    .slot-form label {
+        margin: 0;
+    }
+    .slot-form .btn {
+        margin-top: 5px;
+    }
+    .schedule-list > div {
+        gap: 15px;
+        font-size: 11px;
+    }
+    .schedule-list .btn {
+        font-size: 9px;
+        padding: 7px;
+    }
+    .booking-list > a {
+        grid-template-columns: 1fr 25px;
+        gap: 15px;
+    }
+    .booking-list .badge {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .booking-list > a > span:last-child {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .booking-list h2 {
+        font-size: 25px;
+    }
+    .booking-list .eyebrow {
+        font-size: 7px;
+    }
+    .booking-details {
+        gap: 25px 15px;
+    }
+    .booking-details dd {
+        font-size: 16px;
+    }
+    .fee-panel .fee {
+        font-size: 40px;
+    }
+    .auth-layout {
+        padding: 0 20px;
+        margin: 35px auto 50px;
+    }
+    .auth-layout h1 {
+        font-size: 43px;
+    }
+    .auth-panel {
+        padding: 25px 20px;
+    }
+    .auth-panel h2 {
+        font-size: 29px;
+    }
+    footer {
+        padding: 26px 20px;
+        gap: 15px;
+    }
+    footer span {
+        font-size: 10px;
+    }
+    footer small {
+        width: 100%;
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,226 @@
+.hero {
+    max-width: 1440px;
+    margin: auto;
+    padding: 48px 55px 60px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 65px;
+    margin: 25px 0;
+}
+.hero > div > p {
+    font-size: 14px;
+    line-height: 1.9;
+    max-width: 420px;
+}
+.hero .btn {
+    margin-top: 28px;
+}
+.hero-notes {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    margin-top: 35px;
+    font-size: 8px;
+    letter-spacing: 1px;
+    color: #8b9488;
+}
+.hero figure {
+    margin: 0;
+}
+.hero img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+.hero figcaption {
+    font-size: 8px;
+    letter-spacing: 1px;
+    color: var(--muted);
+    padding-top: 18px;
+}
+.catalog {
+    max-width: 1440px;
+    margin: auto;
+    padding: 45px 55px 65px;
+    border-top: 1px solid var(--line);
+}
+.count {
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 10px;
+    color: var(--muted);
+    white-space: nowrap;
+}
+.filters {
+    display: flex;
+    align-items: end;
+    gap: 18px;
+    margin: 30px 0;
+}
+.filters label {
+    margin: 0;
+    flex: 1;
+    font-size: 11px;
+}
+.filters label:first-child {
+    flex: 2;
+}
+.filters .btn {
+    white-space: nowrap;
+}
+.tutor-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+.tutor-card {
+    border: 1px solid var(--line);
+    padding: 25px;
+    background: #fffef8;
+}
+.tutor-intro {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.tutor-intro > img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.initial {
+    display: grid;
+    place-items: center;
+    height: 70px;
+    width: 70px;
+    background: #e0e8e6;
+    color: #638193;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.tutor-intro .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.tutor-intro h3 {
+    font-size: 24px;
+}
+.tutor-card > p {
+    font-size: 12px;
+    min-height: 55px;
+    margin-top: 20px;
+}
+.tutor-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    margin: 10px 0;
+    border-top: 1px solid var(--line);
+}
+.tutor-meta > span {
+    font-size: 10px;
+    color: var(--muted);
+}
+.tutor-meta strong {
+    font-size: 19px;
+    letter-spacing: -0.5px;
+}
+.tutor-meta small {
+    font-size: 9px;
+}
+.how {
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px 55px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    background: #e9eee7;
+    border-top: 1px solid var(--line);
+}
+.how h2 {
+    font-size: 35px;
+}
+.how ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: how;
+}
+.how li {
+    counter-increment: how;
+}
+.how li:before {
+    content: "0" counter(how);
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #8a9e92;
+    margin-bottom: 20px;
+}
+.how strong {
+    font-size: 14px;
+}
+.how p {
+    font-size: 11px;
+    margin-top: 13px;
+}
+.auth-layout {
+    max-width: 1150px;
+    margin: 60px auto 75px;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 75px;
+    align-items: center;
+}
+.auth-layout h1 {
+    font-size: 51px;
+    margin: 25px 0;
+}
+.auth-layout img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin-top: 28px;
+}
+.auth-layout > div > p {
+    max-width: 420px;
+}
+.auth-panel h2 {
+    font-size: 30px;
+}
+.auth-panel .btn {
+    margin-top: 12px;
+}
+.auth-switch {
+    display: block;
+    margin: 22px 0;
+}
+.auth-panel > small {
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    font-size: 10px;
+}
+.back-link {
+    font-size: 11px;
+    color: var(--muted);
+    display: inline-block;
+    margin-bottom: 30px;
+}
