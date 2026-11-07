@@ -23,6 +23,11 @@ class Slot extends Model
         return $this->hasMany(Booking::class);
     }
 
+    public function scopeActive($query)
+    {
+        return $query->where('active', true);
+    }
+
     public function getFeeAttribute(): int
     {
         return intdiv($this->tutor->hourly_rate * $this->duration + 30, 60);
