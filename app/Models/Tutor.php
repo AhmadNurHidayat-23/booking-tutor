@@ -23,4 +23,9 @@ class Tutor extends Model
     {
         return $this->hasMany(Slot::class);
     }
+
+    public function scopeActive($query)
+    {
+        return $query->where('active', true);
+    }
 }
